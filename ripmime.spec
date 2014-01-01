@@ -1,15 +1,17 @@
-Name:		ripmime
-Summary:	ripMIME
-Version:	1.4.0.10
-Release:	0%{?dist}
-License:	BSD
-Group:		Networking/Other
-URL:		http://www.pldaniels.com/ripmime/
-Source0:	http://www.pldaniels.com/ripmime/%{name}-%{version}.tar.gz
-BuildRequires:	autoconf
-BuildRequires:	automake
-Obsoletes:	ripmime-toaster
-BuildRoot:      %{_topdir}/BUILDROOT/%{name}-%{version}-%{release}.%{_arch}
+Name:      ripmime
+Summary:   ripMIME
+Version:   1.4.0.10
+Release:   0%{?dist}
+License:   BSD
+Group:     Networking/Other
+Vendor:    QmailToaster
+Packager:  Eric Shubert <qmt-build@datamatters.us>
+URL:       http://www.pldaniels.com/ripmime/
+Source0:   http://www.pldaniels.com/ripmime/%{name}-%{version}.tar.gz
+BuildRequires: autoconf
+BuildRequires: automake
+Obsoletes: ripmime-toaster
+BuildRoot: %{_topdir}/BUILDROOT/%{name}-%{version}-%{release}.%{_arch}
 
 %define debug_package %{nil}
 
